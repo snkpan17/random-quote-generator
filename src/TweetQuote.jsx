@@ -1,6 +1,8 @@
+import './TweetQuote.css';
+
 function TweetQuote(){
     return (
-        <button>Tweet</button>
+        <button id="tweet-btn">Tweet</button>
     );
 }
 

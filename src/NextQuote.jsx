@@ -1,6 +1,6 @@
 function NextQuote() {
     return (
-        <button>Next Quote</button>
+        <button id="next-btn">Next Quote</button>
     );
 }
 

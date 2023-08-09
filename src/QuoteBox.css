@@ -1,0 +1,30 @@
+article {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+#author {
+    margin-top: 20px;
+    display: block;
+    text-align: right;
+}
+
+#quote {
+    margin: 30px 0px;
+    max-width: 700px;
+    height: fit-content;
+    padding: 15px;
+    border: 7px double gray;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+#quote p {
+    font-size: 25px;
+}
+
+#quote span {
+    font-size: 20px;
+}

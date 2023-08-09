@@ -1,14 +1,14 @@
 import NextQuote from "./NextQuote";
 import QuoteBox from "./QuoteBox";
-import TweetQuote from "./TweetQuote";
+import './App.css';
 
 function App() {
     return (
-        <>
-            <TweetQuote/>    
+        <main>
+            {/* <TweetQuote/>     */}
             <QuoteBox/>
             <NextQuote/>
-        </>
+        </main>
     );
 }
 
